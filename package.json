@@ -1,0 +1,7 @@
+{ "name" : "linode-breakder"
+, "version" : "1.0.0"
+, "dependencies" : {
+    "zombie" : "*",
+    "chess.js": "*"
+  }
+}
