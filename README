@@ -1,1 +1,10 @@
 a simple captcha breaker for http://en.lichess.org/signup
+
+Requirements: node
+
+Instructions:
+  check out the repository
+  npm install
+  ./makeAccounts.sh <number of accounts>
+  
+<number of accounts> users will be created. The usernames will be appended to the end of users.txt. The password for all accounts will be "pwned"
