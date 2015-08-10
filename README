@@ -1,5 +1,7 @@
 a simple captcha breaker for http://en.lichess.org/signup
 
+NOTE: doesn't work after lichess modified the mini_board div to no longer include board FEN notation in data-fen. The breaker needs to be improved to parse positional information from the cg-board class into FEN notation.
+
 Requirements: node
 
 Instructions:
